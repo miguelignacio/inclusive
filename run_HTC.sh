@@ -42,11 +42,11 @@ fi
 
 echo ""
 #echo "Now running analysis: $PWD/EventShapes"
-#./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.nominal.root
+./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.nominal.root
 #echo "Now running analysis: $PWD/EventShapes. SYSTEMATIC VARIATION 0 (eHadEn)"
 #./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.sys_0.root -s 0
 #echo "Now running analysis: $PWD/EventShapes. SYSTEMATIC VARIATION 1 (eHadEnRCES)"
-./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.sys_1.root -s 1
+#./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.sys_1.root -s 1
 #echo "Now running analysis: $PWD/EventShapes. SYSTEMATIC VARIATION 4 (eHadTh)"
 #./EventShapes -t -f $1 -c $2 -o $OUTDIR/$2.sys_4.root -s 4
 #echo "Now running analysis: $PWD/EventShapes. SYSTEMATIC VARIATION 5 (eHadPh)"
